@@ -4,8 +4,9 @@ import pandas as pd
 st.title("School & Transit Analysis")
 
 # Read our data
-locations = pd.read_csv("locations.csv")
-distance = pd.read_csv("distance.csv")
+distance = pd.read_csv("Distance.csv")
+
+far_schools = pd.read_csv("FarSchools.csv")
 
 # Show the chart
 st.header("Distance to Nearest Transit Station")
