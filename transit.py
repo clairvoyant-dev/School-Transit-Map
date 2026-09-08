@@ -11,12 +11,12 @@ far_schools = pd.read_csv("Locations.csv")
 # Show the chart
 st.header("Distance to Nearest Transit Station")
 
-st.bar_chart(
-    distance,
-    x=distance.columns[0],
-    y=distance.columns[1],
-    horizontal=True
-)
+#st.bar_chart(
+#   distance,
+#   x=distance.columns[0],
+#   y=distance.columns[1],
+#   horizontal=True
+#)
 
 # Show the map
 st.header("School and Transit Locations")
