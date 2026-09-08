@@ -24,10 +24,10 @@ st.title("Congressional District 35: Public Transit & Schools Analysis")
 st.write("This analysis explores public transit accessibility for local schools in our district.")
 
 col1, col2 = st.columns(2)
+
 with col1:
-  
-df = pd.read_csv("Distance.csv")
-st.dataframe(df, use_container_width=True)
+    df = pd.read_csv("Distance.csv")
+    st.dataframe(df, use_container_width=True)
 
 with col2:
 st.header("1. Overview: Distance of Transit Stations by School")
