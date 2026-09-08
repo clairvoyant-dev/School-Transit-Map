@@ -6,7 +6,7 @@ import pandas as pd
 # Read our data
 distance = pd.read_csv("Distance.csv")
 
-far_schools = pd.read_csv("Locations.csv")
+# far_schools = pd.read_csv("Locations.csv")
 
 #st.bar_chart(
 #   distance,
@@ -25,6 +25,7 @@ st.write("This analysis explores public transit accessibility for local schools 
 
 col1, col2 = st.columns(2)
 with col1:
+  
 df = pd.read_csv("Distance.csv")
 st.dataframe(df, use_container_width=True)
 
