@@ -22,7 +22,7 @@ import streamlit as st
 
 st.title("Congressional District 35: Public Transit & Schools Analysis")
 st.write("This analysis explores public transit accessibility for local schools in our district.")
-df = pd.read_csv("Avg of Distance (miles) by School Name.csv")
+df = pd.read_csv("Distance.csv")
 st.dataframe(df, use_container_width=True)
 
 st.header("1. Overview: Distance of Transit Stations by School")
