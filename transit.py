@@ -6,7 +6,7 @@ st.title("School & Transit Analysis")
 # Read our data
 distance = pd.read_csv("Distance.csv")
 
-far_schools = pd.read_csv("FarSchools.csv")
+far_schools = pd.read_csv("Locations.csv")
 
 # Show the chart
 st.header("Distance to Nearest Transit Station")
