@@ -30,8 +30,8 @@ with col1:
     st.dataframe(df, use_container_width=True)
 
 with col2:
-st.header("1. Overview: Distance of Transit Stations by School")
-st.image("Distance of Transit Station by School Name.jpg", caption="Distance of Transit Station by School Name")
+    st.header("1. Overview: Distance of Transit Stations by School")
+    st.image("Distance of Transit Station by School Name.jpg", caption="Distance of Transit Station by School Name")
 
 st.header("2. Focus Area: Schools More Than 0.5 Miles Away")
 st.write("These schools face the greatest distance from public transit options.")
